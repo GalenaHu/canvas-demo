@@ -1,0 +1,151 @@
+/*
+* @Author: Galena
+* @Date:   2019-03-15 14:13:10
+* @Last Modified by:   Galena
+* @Last Modified time: 2019-03-16 20:09:02
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+body {
+	overflow: hidden;
+	position: fixed;
+}
+nav {
+	background-color: #31353E;
+	text-align: center;
+	position: relative;
+}
+
+nav > ul {
+	display: inline-block;
+}
+
+nav > ul > li {
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	margin: 5px 10px;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+#nav > ul >li >.icon {
+   width: 30px; height: 30px;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+.icon {
+	width: 30px; height: 30px;
+	vertical-align: center;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.iconPen {
+	width: 30px; height: 30px;
+	vertical-align: center;
+	overflow: hidden;
+}
+
+
+#canvas {
+	background-color: transparent;
+}
+
+
+#penSelect {
+	position: absolute;
+	display: none;
+	flex-wrap: wrap;
+	width: 462px;
+	background-color: #F3F1F0;
+	border-radius: 20px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
+	left: -200px;
+	right: 0;
+	margin: 0 auto;
+}
+
+#widthWrapper {
+
+}
+
+#widthWrapper > ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 210px;
+	vertical-align: middle;
+	margin: 10px;
+	padding: 24px 0;
+}
+
+#widthWrapper > ul > li {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin: 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+#colorWrapper {
+}
+
+#colorWrapper > ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 210px;
+	margin:10px;
+}
+#colorWrapper > ul > li {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin: 10px;
+	cursor: pointer;
+}
+
+#colorWrapper > ul > li:nth-child(1) {
+	background-color: #FEFE53;
+}
+#colorWrapper > ul > li:nth-child(2) {
+	background-color: #ECA037;
+}
+#colorWrapper > ul > li:nth-child(3) {
+	background-color: #D94632;
+}
+#colorWrapper > ul > li:nth-child(4) {
+	background-color: #E932CD;
+}
+#colorWrapper > ul > li:nth-child(5) {
+	background-color: #BBFC52;
+}
+#colorWrapper > ul > li:nth-child(6) {
+	background-color: #75B755;
+}
+#colorWrapper > ul > li:nth-child(7) {
+	background-color: #951CBF;
+}
+#colorWrapper > ul > li:nth-child(8) {
+	background-color: #5A2E8A;
+}
+#colorWrapper > ul > li:nth-child(9) {
+	background-color: #2F703F;
+}
+#colorWrapper > ul > li:nth-child(10) {
+	background-color: #FFFFFF;
+}
+#colorWrapper > ul > li:nth-child(11) {
+	background-color: #2F703F;
+}
+#colorWrapper > ul > li:nth-child(12) {
+	background-color: #000000;
+}

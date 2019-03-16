@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>My Canvas</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="//at.alicdn.com/t/font_1090896_05mjzt1pbeu4.js"></script>
+</head>
+<body>
+	<nav id="nav">
+		<ul>
+			<li id="pen"><svg class="iconPen" aria-hidden="true" id="penSvg"><use xlink:href="#icon-pen"></use></svg></li>
+			<li id="eraser"><svg class="icon" aria-hidden="true" id="eraserSvg"><use xlink:href="#icon-eraser"></use></svg></li>
+			<li id="trash"><svg class="icon" aria-hidden="true" id="trashSvg"><use xlink:href="#icon-btn_Trashx"></use></svg></li>
+			<li id="downLoad"><svg class="icon" aria-hidden="true" id="downLoadSvg"><use xlink:href="#icon-xiazai"></use></svg></li>
+		</ul>
+		<div id="penSelect">
+			<div id="widthWrapper">
+				<ul>
+					<li id="2" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot2-copy"></use></svg></li>
+					<li id="4" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot4-copy"></use></svg></li>
+					<li id="6" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot6-copy"></use></svg></li>
+					<li id="8" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot8-copy"></use></svg></li>
+					<li id="10" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot10-copy"></use></svg></li>
+					<li id="12" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot12-copy"></use></svg></li>
+					<li id="14" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot14-copy"></use></svg></li>
+					<li id="16" class="selectWidth"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-dot16-copy"></use></svg></li>
+				</ul>
+			</div>
+			<div id="colorWrapper">
+				<ul>
+					<li id="#FEFE53" class="selectColor"></li>
+					<li id="#ECA037" class="selectColor"></li>
+					<li id="#D94632" class="selectColor"></li>
+					<li id="#E932CD" class="selectColor"></li>
+					<li id="#BBFC52" class="selectColor"></li>
+					<li id="#75B755" class="selectColor"></li>
+					<li id="#951CBF" class="selectColor"></li>
+					<li id="#5A2E8A" class="selectColor"></li>
+					<li id="#2F703F" class="selectColor"></li>
+					<li id="#FFFFFF" class="selectColor"></li>
+					<li id="#2F703F" class="selectColor"></li>
+					<li id="#000000" class="selectColor"></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<canvas id="canvas"></canvas>
+	<script src="main.js"></script>
+</body>
+</html>
